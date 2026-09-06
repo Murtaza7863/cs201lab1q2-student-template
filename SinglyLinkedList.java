@@ -83,7 +83,7 @@ public class SinglyLinkedList<E> {
 
         E removed = tail.getElement();
 
-        if (size == 1) {
+        if (head == tail) {
             head = null;
             tail = null;
         } else {
